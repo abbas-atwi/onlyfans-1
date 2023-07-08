@@ -15,7 +15,27 @@ header {
   justify-content: center;
   height: inherit;
 }
-
+.share {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section-share,
+.section-star {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: centere;
+}
+.section-share img,
+.section-star img {
+  width: 60%;
+}
+.section-star img {
+  width: 45%;
+}
 .logo-profile-info {
   /* background-color: green; */
   display: flex;
@@ -113,6 +133,9 @@ header {
   padding: 8px 0px;
   /* background-color: green; */
 }
+.follows span {
+  font-size: 15px;
+}
 .follow-me {
   display: flex;
   flex-direction: column;
@@ -169,7 +192,56 @@ fieldset:nth-child(2) {
   border-top: 0;
   border-left: 0;
 }
+
+fieldset.active {
+  display: none;
+}
 fieldset {
   flex: 1;
   border: 1px solid hsl(240, 2%, 90%);
+}
+
+.section-publish {
+  /* background-color: red; */
+  height: 300px;
+}
+
+.publish-info {
+  /* background-color: yellow; */
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-share {
+  width: 35px;
+  height: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-share img {
+  width: 40%;
+}
+
+.section-publish-img {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.publish-img {
+  background-color: #efefef;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.publish-img img {
+  width: 25%;
+  opacity: 0.1;
 }
