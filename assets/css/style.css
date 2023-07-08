@@ -106,8 +106,11 @@ header {
 }
 .banner-profile {
   height: 100%;
-  background: url(/assets/img/banner-css.webp);
+  background: url(/assets/img/libano-banner.avif);
   background-color: #222;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .section-subscribe {
