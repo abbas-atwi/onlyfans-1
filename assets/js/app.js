@@ -8,7 +8,7 @@ moreInfo.addEventListener("click", (e) => {
 });
 
 followSybscribe.addEventListener("click", () => {
-  alert("Captura com a camera frontal !! ");
+  alert("Captura com a camera frontal !! Jesus esta vendo.. ");
 });
 const optionsFieldSet = document.querySelectorAll("fieldset");
 console.log(optionsFieldSet[1]);
