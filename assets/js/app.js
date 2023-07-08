@@ -7,7 +7,8 @@ moreInfo.addEventListener("click", (e) => {
   alert("jesus ta vendo !!!");
 });
 
-followSybscribe.addEventListener("click", () => {
+followSybscribe.addEventListener("click", (e) => {
+  e.preventDefault();
   alert("Captura com a camera frontal !! Jesus esta vendo.. ");
 });
 const optionsFieldSet = document.querySelectorAll("fieldset");
