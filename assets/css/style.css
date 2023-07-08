@@ -66,6 +66,7 @@ header {
   color: #222;
   padding-bottom: 6px;
   font-size: 15px;
+  width: 250px;
 }
 .bio-info a {
   display: flex;
