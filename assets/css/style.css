@@ -58,7 +58,7 @@ header {
 }
 
 .bio-info {
-  padding: 8px 5px;
+  padding: 8px 6px;
   display: flex;
   flex-direction: column;
 }
@@ -249,4 +249,18 @@ fieldset {
 .publish-img img {
   width: 25%;
   opacity: 0.1;
+}
+footer {
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #59cdf1;
+  color: #fff;
+  margin-top: 15px;
+  font-weight: normal;
+}
+footer p {
+  font-size: 18px;
+}
+footer a {
+  font-size: 16px;
 }
